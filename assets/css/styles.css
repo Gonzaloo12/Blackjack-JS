@@ -1,0 +1,51 @@
+html,body {
+    margin: 0px;
+    background-color: #2F4F30;
+    color: white;
+}
+
+.titulo {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+}
+.titulo:hover{
+    font-size: 30px;
+    background-color: white;
+    color:black;
+    transition: 1s;
+}
+
+.col-text-center {
+    text-align: center;
+    background-color: #2F4F30;
+}
+
+.boton {
+    padding: 10px;
+    margin: 30px;
+    color: #fff;
+    background-color:red;
+    border-radius: 15px;
+
+}
+div {
+    background-color: #2F4F30;
+}
+
+.div-h1 {
+    color: #fff;
+}
+
+.carta {
+    position: relative;
+    width: 150px;
+    left: 100px;
+    margin-left: -75px;
+}
+
+#computadora-cartas,#jugador-cartas {
+    height: 250px;
+}
